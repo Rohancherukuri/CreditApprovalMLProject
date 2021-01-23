@@ -123,7 +123,7 @@ class EDA:
 
 
 # This is for testing purposes
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     try:
         e = EDA()
         df1,df2 = e.read_file()
@@ -135,4 +135,3 @@ class EDA:
         print(df3)
     except Exception as e:
         print("Sorry error occured: "+str(e))
-"""
