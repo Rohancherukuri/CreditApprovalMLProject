@@ -36,10 +36,9 @@ class DataGetter:
         
         
 # This is for testing purposes
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     try:
         d = DataGetter()
         print(d.get_data())
     except Exception as e:
         print("Sorry there was an error in your code: "+str(e))
-"""
