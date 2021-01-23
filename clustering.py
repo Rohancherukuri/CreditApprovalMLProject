@@ -107,7 +107,7 @@ class KMeansClustering:
             raise Exception()
         
 # This is for testing purposes         
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     try:
         DATA_PATH = "/home/rohanoxob/MachineLearning/CreditApprovalProject/data.csv"
         df = pd.read_csv("data.csv")
@@ -119,4 +119,3 @@ class KMeansClustering:
         print(data.head())
     except Exception as e:
         print("Sorry there was an error in your code: "+str(e))
-"""
